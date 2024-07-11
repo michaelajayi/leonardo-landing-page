@@ -19,8 +19,8 @@ const Header = () => {
           className="w-full h-full object-cover object-center"
         />
       </div>
-      <div className="w-full h-auto absolute left-0 bottom-0 flex justify-end px:5 lg:px-20 py-20 pointer-events-none">
-        <Image src={statue} alt='statue' />
+      <div className="w-full h-auto absolute left-0 bottom-0 flex justify-end px-3 lg:px-20 py-3 lg:py-20 pointer-events-none">
+        <Image src={statue} alt='statue' className="" />
       </div>
       <div className="w-screen h-auto absolute top-0 left-0 px-5 py-3">
         <Link href="/">
