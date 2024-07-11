@@ -14,21 +14,21 @@ const NewFooter = () => {
           className='w-full h-full object-cover object-center'
         />
       </div>
-      <div className='w-full h-auto absolute bottom-0 right-0 flex -z-5 justify-end px-10 py-10'>
+      <div className='w-full h-auto absolute bottom-0 right-0 hidden lg:flex -z-5 justify-end px-10 py-10'>
         <Image src={logo} alt='logo' />
       </div>
-      <div className='w-full h-auto grid grid-cols-10 py-[8rem] px-[7rem] z-10'>
+      <div className='w-full h-auto grid grid-cols-10 py-20 lg:py-[8rem] px-5 lg:px-[7rem] z-10 '>
         <div className='col-span-10 lg:col-span-6 flex flex-col space-y-10 items-start'>
-          <Image src={footerLogo} alt='footer logo' className='w-[432px]' />
+          <Image src={footerLogo} alt='footer logo' className='w-[332px] lg:w-[432px]' />
           <div className='flex flex-col space-y-5'>
-            <p className='font-orchidea-pro text-[20px] font-light leading-[140%] text-white'>
+            <p className='font-orchidea-pro text-[16px] lg:text-[20px] font-light leading-[140%] text-white'>
               Sujimoto Group is the No.1 Luxury Real Estate Developer in Ikoyi
               and Banana Island, with breathtaking projects such as the
               GiulianoBySujimoto which is home to Nigerian-American singer,
               Davido; LucreziaBySujimoto - a 14-storey tower with incredibly
               premium features and
             </p>
-            <p className='font-orchidea-pro text-[20px] font-light leading-[140%] text-white'>
+            <p className='font-orchidea-pro text-[16px] lg:text-[20px] font-light leading-[140%] text-white'>
               The Leonardo BySujimoto waterfront building - a 25 storey luxury
               tower with exceptional amenities; the QueenAminaBySujimoto, a
               first-of-its-kind luxury tower located in highbrow neighbourhood

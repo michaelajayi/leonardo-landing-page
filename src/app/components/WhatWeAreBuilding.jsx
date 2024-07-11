@@ -22,18 +22,18 @@ const WhatWeAreBuilding = () => {
           alt="what we are building banner"
         />
       </div>
-      <div className="w-full h-auto grid grid-cols-10 px-[7rem] z-10 py-[8rem]">
+      <div className="w-full h-auto grid grid-cols-10 px-5 lg:px-[7rem] z-10 py-[8rem]">
         <div className="col-span-10 lg:col-span-5 flex flex-col space-y-5">
-          <h2 className="font-orchidea-pro font-light text-[48px] text-white leading-[98%]">
+          <h2 className="font-orchidea-pro font-light text-[36px] lg:text-[48px] text-white leading-[98%]">
             What are we building?
           </h2>
-          <p className="font-orchidea-pro font-medium text-[20px] text-white leading-[40px] lg:w-[95%]">
+          <p className="font-orchidea-pro font-medium text-[16px] lg:text-[20px] text-white leading-[40px] w-full lg:w-[95%]">
             The LeonardoBySujimoto waterfront project draws Inspiration from the
             16th-century artist and Renaissance icon, Leonardo Da Vinci,
             embodying a standard of luxury that is rarely witnessed, standing at
             the very core of sophistication, art, and architecture.
           </p>
-          <p className="font-italianno text-[#B56350] text-[40px] leading-[40px] tracking-[4%] lg:w-[95%]">
+          <p className="font-italianno text-[#B56350] text-[36px] lg:text-[40px] leading-[40px] tracking-[4%] lg:w-[95%]">
             &quot;Own a Piece of Nigeria&apos;s 1st Vertical City, the Tallest
             and Most Luxurious Building in Sub-Saharan Africa.&quot;
           </p>

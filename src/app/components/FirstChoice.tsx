@@ -45,22 +45,22 @@ const FirstChoice = () => {
   ];
   return (
     <div className="min-w-screen w-screen h-auto flex justify-center items-center bg-[#232323]">
-      <div className="w-full h-full pl-[7rem] grid grid-cols-10 py-[7rem]">
-        <div className="col-span-10 lg:col-span-6 flex flex-col space-y-10 items-start">
-          <h2 className="font-orchidea-pro font-medium text-[48px] text-white leading-[130%]">
+      <div className="w-full h-full pl-5 lg:pl-[7rem] grid grid-cols-10 py-[2rem] lg:py-[7rem]">
+        <div className="col-span-10 lg:col-span-6 flex flex-col space-y-10 items-start py-10 lg:py-0">
+          <h2 className="font-orchidea-pro font-medium text-[36px] lg:text-[48px] text-white leading-[120%] lg:leading-[130%]">
             Reasons why the <span className="text-[#B56350]">Leonardo</span>{" "}
             Stands as 1st Choice Property.
           </h2>
-          <div className="grid grid-cols-12 gap-5 items-start pr-20">
+          <div className="grid grid-cols-12 gap-y-10 lg:gap-y-100 gap-x-5 lg:gap-x-10 items-start pr-5 pl-5 lg:pl-0 lg:pr-20">
             {reasonsWhy.map((reason, index) => (
               <div
-                className="flex flex-col space-y-5 col-span-3 justify-center items-center"
+                className="flex flex-col space-y-3 lg:space-y-5 col-span-4 lg:col-span-3 justify-center items-center"
                 key={index}
               >
                 <div className="grid place-content-center aspect-square rounded-full bg-[#B56350] p-3">
                   <Image src={reason.icon} alt={reason.title} />
                 </div>
-                <p className="font-orchidea-pro font-medium text-[27.47px] leading-[130%] text-white text-center">
+                <p className="font-orchidea-pro font-medium text-[14px] lg:text-[27.47px] leading-[130%] text-white text-center">
                   {reason.title}
                 </p>
               </div>
