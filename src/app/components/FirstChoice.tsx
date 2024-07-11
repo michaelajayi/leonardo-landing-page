@@ -45,7 +45,7 @@ const FirstChoice = () => {
   ];
   return (
     <div className="min-w-screen w-screen h-auto flex justify-center items-center bg-[#232323]">
-      <div className="w-full h-full pl-5 lg:pl-[7rem] grid grid-cols-10 py-[2rem] lg:py-[7rem]">
+      <div className="w-full h-full pl-5 lg:space-x-5 lg:pl-[7rem] grid grid-cols-10 py-[2rem] lg:py-[7rem]">
         <div className="col-span-10 lg:col-span-6 flex flex-col space-y-10 items-start py-10 lg:py-0">
           <h2 className="font-orchidea-pro font-medium text-[36px] lg:text-[48px] text-white leading-[120%] lg:leading-[130%]">
             Reasons why the <span className="text-[#B56350]">Leonardo</span>{" "}

@@ -22,7 +22,7 @@ const Header = () => {
       <div className="w-full h-auto absolute left-0 bottom-0 flex justify-end px-3 lg:px-20 py-3 lg:py-20 pointer-events-none">
         <Image src={statue} alt='statue' className="" />
       </div>
-      <div className="w-screen h-auto absolute top-0 left-0 px-5 py-3">
+      <div className="w-screen h-auto absolute top-0 left-0 px-5 lg:px-[7rem] py-3">
         <Link href="/">
           <Image src={logo} alt="header logo" />
         </Link>
@@ -30,12 +30,12 @@ const Header = () => {
       <div className="w-full flex flex-col space-y-5 self-center">
         <div className="grid grid-cols-10 px-5">
           <div className="col-span-10 lg:col-span-7 flex flex-col space-y-5 items-start lg:px-[7rem]">
-            <h1 className="font-orchidea-pro text-white text-[36px] lg:text-[58px] leading-[130%] font-medium w-full lg:w-[85%]">
+            <h1 className="font-orchidea-pro text-white text-[36px] lg:text-[58px] leading-[130%] font-medium w-full">
               Welcome to Africa&apos;s Most Exclusive Luxury Waterfront
               High-rise Building!
             </h1>
             <div className="flex flex-col space-y-5">
-              <p className="font-inter font-medium text-[14px] lg:text-[16px] leading-[146%] text-white uppercase w-full lg:w-[60%]">
+              <p className="font-inter font-medium text-[14px] lg:text-[16px] leading-[146%] text-white uppercase w-full lg:w-[80%]">
                 Own your dream 2-3 and 4 bed luxurious apartments at
                 Nigeria&apos;s tallest and most iconic building.
               </p>
