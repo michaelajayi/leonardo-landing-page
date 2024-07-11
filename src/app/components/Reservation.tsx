@@ -151,7 +151,7 @@ const Reservation = () => {
                 type="text"
                 name="fullName"
                 placeholder="Full Name"
-                className="font-orchidea-pro font-light text-[18px] lg:text-[20px] leading-[98%] text-[#1D1B1C] px-0 py-2 outline-none bg-transparent border-[1.5px] border-b-[#B56350] border-r-0 border-l-0 border-t-0 w-full"
+                className="font-orchidea-pro font-light text-[18px] lg:text-[20px] leading-[98%] text-[#1D1B1C] px-0 py-2 outline-none bg-transparent border-[1.5px] border-b-[#B56350] border-r-0 border-l-0 border-t-0 w-ful rounded-none"
               />
               {errors.fullName && (
                 <div className="text-red-500 text-[13px] py-1">
@@ -164,7 +164,7 @@ const Reservation = () => {
               <select
                 {...register("property")}
                 name="property"
-                className="font-orchidea-pro font-light text-[18px] lg:text-[20px] leading-[98%] text-[#1D1B1C] py-2 outline-none bg-transparent border-[1.5px] border-b-[#B56350] border-r-0 border-l-0 border-t-0 w-full"
+                className="font-orchidea-pro font-light text-[18px] lg:text-[20px] leading-[98%] text-[#1D1B1C] py-2 outline-none bg-transparent border-[1.5px] border-b-[#B56350] border-r-0 border-l-0 border-t-0 w-full rounded-none"
               >
                 <option value="">Please select your property of choice</option>
                 <option value="2 Bedroom Apartment Approx. 140m2 (700k)">
@@ -193,7 +193,7 @@ const Reservation = () => {
                   type="email"
                   name="email"
                   placeholder="Email"
-                  className="font-orchidea-pro font-light text-[18px] lg:text-[20px] leading-[98%] text-[#1D1B1C] py-2 outline-none bg-transparent border-[1.5px] border-b-[#B56350] border-r-0 border-l-0 border-t-0 w-full"
+                  className="font-orchidea-pro font-light text-[18px] lg:text-[20px] leading-[98%] text-[#1D1B1C] py-2 outline-none bg-transparent border-[1.5px] border-b-[#B56350] border-r-0 border-l-0 border-t-0 w-full rounded-none"
                 />
                 {errors.email && (
                   <div className="text-red-500 text-[13px] py-1">
@@ -207,7 +207,7 @@ const Reservation = () => {
                   type="text"
                   name="phone"
                   placeholder="Phone e.g. +2341234567890"
-                  className="font-orchidea-pro font-light text-[18px] lg:text-[20px] leading-[98%] text-[#1D1B1C] py-2 outline-none bg-transparent border-[1.5px] border-b-[#B56350] border-r-0 border-l-0 border-t-0 w-full"
+                  className="font-orchidea-pro font-light text-[18px] lg:text-[20px] leading-[98%] text-[#1D1B1C] py-2 outline-none bg-transparent border-[1.5px] border-b-[#B56350] border-r-0 border-l-0 border-t-0 w-full rounded-none"
                 />
                 {errors.phone && (
                   <div className="text-red-500 text-[13px] py-1">
@@ -221,7 +221,7 @@ const Reservation = () => {
               <select
                 {...register("agentOrBuyer")}
                 name="agentOrBuyer"
-                className="font-orchidea-pro font-light text-[18px] lg:text-[20px] leading-[98%] text-[#1D1B1C] py-2 outline-none bg-transparent border-[1.5px] border-b-[#B56350] border-r-0 border-l-0 border-t-0 w-full"
+                className="font-orchidea-pro font-light text-[18px] lg:text-[20px] leading-[98%] text-[#1D1B1C] py-2 outline-none bg-transparent border-[1.5px] border-b-[#B56350] border-r-0 border-l-0 border-t-0 w-full rounded-none"
               >
                 <option value="">Are you an agent or a buyer</option>
                 <option value="agent">Agent</option>
@@ -234,7 +234,7 @@ const Reservation = () => {
               )}
             </div>
             {/* when are you planning to buy a unit */}
-            <div className="flex flex-col w-full">
+            <div className="flex flex-col space-y-2  lg:space-y-0 w-full justify-start items-start">
               <p className="font-orchidea-pro text-[#1D1B1C] text-[18px] lg:text-[20px] font-light">
                 When are you planning to buy a unit
               </p>
@@ -244,7 +244,7 @@ const Reservation = () => {
                 min={today}
                 name="whenToBuyUnit"
                 // placeholder='When are you planning to buy a unit'
-                className="font-orchidea-pro font-light text-[18px] lg:text-[20px] leading-[98%] text-[#1D1B1C] py-2 outline-none bg-transparent border-[1.5px] border-b-[#B56350] border-r-0 border-l-0 border-t-0 w-full"
+                className="font-orchidea-pro font-light text-[18px] lg:text-[20px] leading-[98%] text-[#1D1B1C] py-2 outline-none bg-transparent border-[1.5px] border-b-[#B56350] border-r-0 border-l-0 border-t-0 w-full rounded-none"
               />
               {errors.whenToBuyUnit && (
                 <div className="text-red-500 text-[13px] py-1">
@@ -260,7 +260,7 @@ const Reservation = () => {
                 type="text"
                 name="comment"
                 placeholder="Leave a comment"
-                className="font-orchidea-pro font-light text-[18px] lg:text-[20px] leading-[98%] text-[#1D1B1C] py-2 outline-none bg-transparent border-[1.5px] border-b-[#B56350] border-r-0 border-l-0 border-t-0 w-full"
+                className="font-orchidea-pro font-light text-[18px] lg:text-[20px] leading-[98%] text-[#1D1B1C] py-2 outline-none bg-transparent border-[1.5px] border-b-[#B56350] border-r-0 border-l-0 border-t-0 w-full rounded-none"
               />
               {errors.comment && (
                 <div className="text-red-500 text-[13px] py-1">
