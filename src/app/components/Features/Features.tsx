@@ -20,11 +20,11 @@ const Features = () => {
           className='w-full h-full object-cover object-center opacity-[20%]'
         />
       </div>
-      <div className='w-full h-auto px-5 lg:px-[7rem] py-20 flex justify-center items-center flex-col space-y-10 lg:space-y-20 z-10 text-center'>
+      <div className='w-full h-auto px-5 lg:p]x-[7rem] py-20 flex justify-center items-center flex-col space-y-10 lg:space-y-20 z-10 text-center'>
         <h3 className='font-orchidea-pro font-medium text-white text-[36px] lg:text-[48px]'>
           Features & Facilities
         </h3>
-        <div className='w-full grid grid-cols-3 lg:grid-cols-5 gap-x-10 lg:gap-x-10 gap-y-10 lg:gap-y-20'>
+        <div className='w-full grid grid-cols-3 lg:grid-cols-5 gap-x-10 lg:gap-x-10 gap-y-10 lg:gap-y-20 items-center justify-ceter'>
           {features.map((feature, index) => (
             <div
               className='flex flex-col justify-center items-center space-y-0 lg:space-y-3'
@@ -33,7 +33,7 @@ const Features = () => {
               <Image
                 src={feature.icon}
                 alt={feature.text}
-                className='feature-icon scale-[.5]'
+                className='feature-icon scale-[.5] lg:scale-[.8]'
               />
               <p className='font-orchidea-pro text-[#DEDCD6] text-center text-[14px] lg:text-[16px]'>
                 {feature.text}

@@ -22,7 +22,7 @@ const WhatWeAreBuilding = () => {
           alt="what we are building banner"
         />
       </div>
-      <div className="w-full h-auto grid grid-cols-10 px-5 lg:px-[7rem] z-10 py-[8rem]">
+      <div className="w-full h-auto grid grid-cols-10 px-5 lg:px-[7rem] z-10 py-10 lg:py-[8rem]">
         <div className="col-span-10 lg:col-span-5 flex flex-col space-y-5">
           <h2 className="font-orchidea-pro font-light text-[36px] lg:text-[48px] text-white leading-[98%]">
             What are we building?

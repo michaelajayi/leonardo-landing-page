@@ -29,8 +29,8 @@ const Header = () => {
       </div>
       <div className="w-full flex flex-col space-y-5 self-center">
         <div className="grid grid-cols-10 px-5">
-          <div className="col-span-10 lg:col-span-7 flex flex-col space-y-5 items-start">
-            <h1 className="font-orchidea-pro text-white text-[36px] lg:text-[58px] leading-[130%] font-medium">
+          <div className="col-span-10 lg:col-span-7 flex flex-col space-y-5 items-start lg:px-[7rem]">
+            <h1 className="font-orchidea-pro text-white text-[36px] lg:text-[58px] leading-[130%] font-medium w-full lg:w-[85%]">
               Welcome to Africa&apos;s Most Exclusive Luxury Waterfront
               High-rise Building!
             </h1>
@@ -39,7 +39,7 @@ const Header = () => {
                 Own your dream 2-3 and 4 bed luxurious apartments at
                 Nigeria&apos;s tallest and most iconic building.
               </p>
-              <p className="font-inter font-bold text-[24px] leading-[146%] text-white">
+              <p className="font-inter font-bold text-[18px] lg:text-[24px] leading-[146%] text-white">
                 Starting at - 250k (30% Initial Deposit)
               </p>
             </div>

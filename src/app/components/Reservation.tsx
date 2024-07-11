@@ -134,7 +134,7 @@ const Reservation = () => {
             <h2 className="font-orchidea-pro text-[#1D1B1C] text-[18px] lg:text-[24px] leading-[130%] uppercase">
               Make a reservation
             </h2>
-            <p className="font-orchidea-pro font-light text-[#1D1B1C] leading-[100%] lg:leading-[140%] text-[18px] lg:text-[24px]">
+            <p className="font-orchidea-pro font-light text-[#1D1B1C] leading-[140%] lg:leading-[140%] text-[18px] lg:text-[24px]">
               &quot;LIMITED TIME OFFER!&quot; - Be Among the First Few Investors
               to Double their Wealth through the Leonardo Off-Plan & Earn Over
               200%

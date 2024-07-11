@@ -57,8 +57,8 @@ const FirstChoice = () => {
                 className="flex flex-col space-y-3 lg:space-y-5 col-span-4 lg:col-span-3 justify-center items-center"
                 key={index}
               >
-                <div className="grid place-content-center aspect-square rounded-full bg-[#B56350] p-3">
-                  <Image src={reason.icon} alt={reason.title} />
+                <div className="grid place-content-center aspect-square rounded-full bg-[#B56350] p-2 lg:p-3">
+                  <Image src={reason.icon} alt={reason.title} className="scale-[.6] lg:scale-[1]" />
                 </div>
                 <p className="font-orchidea-pro font-medium text-[14px] lg:text-[27.47px] leading-[130%] text-white text-center">
                   {reason.title}
