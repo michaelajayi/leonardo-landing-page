@@ -2,6 +2,8 @@
 import React from "react";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 
+const logo = 'logo.svg';
+
 const FloatingWhatsappButton = () => {
   return (
     <FloatingWhatsApp
@@ -10,9 +12,9 @@ const FloatingWhatsappButton = () => {
       statusMessage='Typically replies within 10 minutes'
       chatMessage='Hello! How can we help you?'
       // darkMode={true}
-      avatar='https://landing.leonardobysujimoto.com/static/media/logo.7cd0fdb6070286a8fb8743e17674d588.svg'
+      avatar={logo}
       allowEsc
-      allowClickAway
+      // allowClickAway
       notification
       notificationSound
     />

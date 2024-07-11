@@ -21,7 +21,7 @@ export async function POST(request: Request) {
     // Connect to MongoDB
     const client = await clientPromise;
     const db = client.db("leonardo-landing-db");
-    const collection = db.collection("reservations");
+    const collection = db.collection("reservation");
 
     // Check for existing reservation with the same email or phone
     const existingReservation = await collection.findOne({

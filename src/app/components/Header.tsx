@@ -19,17 +19,17 @@ const Header = () => {
           className="w-full h-full object-cover object-center"
         />
       </div>
-      <div className="w-full h-auto absolute left-0 bottom-0 flex justify-end px-20 py-20 pointer-events-none">
+      <div className="w-full h-auto absolute left-0 bottom-0 flex justify-end px:5 lg:px-20 py-20 pointer-events-none">
         <Image src={statue} alt='statue' />
       </div>
-      <div className="w-screen h-auto absolute top-0 left-0 px-[7rem] py-3">
+      <div className="w-screen h-auto absolute top-0 left-0 px-20 lg:px-[7rem] py-3">
         <Link href="/">
           <Image src={logo} alt="header logo" />
         </Link>
       </div>
       <div className="w-full flex flex-col space-y-5 self-center">
-        <div className="grid grid-cols-10 px-[7rem]">
-          <div className="col-span-7 flex flex-col space-y-5 items-start">
+        <div className="grid grid-cols-10 px-20 lg:px-[7rem]">
+          <div className="col-span-10 lg:col-span-7 flex flex-col space-y-5 items-start">
             <h1 className="font-orchidea-pro text-white text-[58px] leading-[130%] font-medium">
               Welcome to Africa&apos;s Most Exclusive Luxury Waterfront
               High-rise Building!
@@ -50,7 +50,7 @@ const Header = () => {
               Book Now
             </button>
           </div>
-          <div className="col-span-3"></div>
+          <div className="col-span-0 lg:col-span-3"></div>
         </div>
       </div>
     </div>
