@@ -1,0 +1,42 @@
+.sticky-button__container {
+  width: 100vw;
+  border-bottom: 1px solid #d4b03a;
+}
+
+
+
+.trapezium-button-wrapper {
+  position: relative;
+  width: 250px;
+  cursor: pointer;
+}
+
+
+
+.trapezium-button-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../../assets/img/sticky-button-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  z-index: -11;
+}
+
+.reserve-a-unit {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .reserve-a-unit {
+    font-size: 12px;
+  }
+  .trapezium-button-wrapper {
+    width: 175px;
+  }
+}

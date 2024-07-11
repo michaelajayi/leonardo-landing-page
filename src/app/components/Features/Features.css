@@ -1,0 +1,61 @@
+.features-container {
+  position: relative;
+}
+
+.features-row {
+  row-gap: 4.5rem;
+}
+
+.features-heading {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+}
+
+.feature-text {
+  font-size: 0.65rem;
+  font-family: "Inter", sans-serif;
+  color: #dedcd6;
+}
+
+.feature-icon {
+  transform: scale(0.6);
+}
+
+.features-container {
+  position: relative;
+  background: rgba(35, 35, 35, 0.5);
+  padding-block: 5rem;
+}
+
+.features-icon__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(12%, 100%), 1fr));
+  gap: 5.5rem;
+}
+
+.features-container::after {
+  content: "";
+  background: url("../../../../public/img/banners/features-bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  object-fit: cover;
+  filter: brightness(50%);
+  position: absolute;
+  height: 100%;
+  width: 100vw;
+  z-index: -10;
+  top: 0;
+  left: 0;
+}
+
+.features-wrapper {
+  width: 80%;
+  margin-block: 4rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+  .features-icon__container {
+    grid-template-columns: repeat(auto-fill, minmax(min(25%, 100%), 1fr));
+  }
+}

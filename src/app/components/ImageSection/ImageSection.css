@@ -1,0 +1,113 @@
+.image-section__container {
+  position: relative;
+}
+
+.image-section__container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../../assets/img/banners/image-section-bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(0.9);
+  object-fit: cover;
+  height: 100%;
+  width: 100vw;
+  z-index: -10;
+}
+
+.image-section__inner {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(30%, 100%), 1fr));
+  align-items: center;
+  justify-content: center;
+}
+
+.image-section-img {
+  transform: scale(0.85);
+}
+
+.image-section__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: justify;
+  display: inline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+.image-section__heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  inline-size: 85%;
+}
+
+.image-section__ellipse {
+  position: absolute;
+  bottom: 3%;
+  right: 35%;
+  z-index: -1;
+}
+
+.image-section__more-btn,
+.image-section__more-btn:hover {
+  text-decoration: none;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  color: #d4b03a;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1030px) {
+  .image-section__inner {
+    grid-template-columns: repeat(auto-fill, minmax(min(60%, 100%), 1fr));
+    place-items: center;
+  }
+
+  .image-section__heading {
+    text-align: center;
+  }
+
+  .image-section__text {
+    text-align: center;
+    inline-size: 80%;
+    margin: 0 auto;
+  }
+
+  .image-section__text,
+  .image-section__more-btn {
+    font-size: 1rem;
+  }
+
+  .image-section__heading {
+    font-size: 30px;
+  }
+
+  .image-section__text-wrapper {
+    align-items: center;
+    gap: 0.65rem !important;
+  }
+
+  .image-section__ellipse {
+    bottom: 10%;
+    right: 20%;
+    z-index: -5;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+  .image-section__ellipse {
+    right: 5%;
+    bottom: 15%;
+    opacity: 0.8;
+  }
+}

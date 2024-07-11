@@ -1,0 +1,11 @@
+.navbar-container {
+  padding-block: 2rem;
+}
+
+.logo {
+  /* transform: scale(0.8); */
+}
+
+.hamburger-icon {
+  cursor: pointer;
+}

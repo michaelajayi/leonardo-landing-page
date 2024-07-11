@@ -1,0 +1,9 @@
+.copyright-container {
+  background: #000;
+  color: #fff;
+}
+
+.copyright-container > p {
+  font-family: "Inter";
+  font-size: 12px;
+}
