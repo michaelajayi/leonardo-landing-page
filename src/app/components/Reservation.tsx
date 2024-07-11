@@ -39,7 +39,7 @@ const Reservation = () => {
     if (dateInput) {
       dateInput.setAttribute("min", today);
     }
-  }, []);
+  }, [today]);
 
   const validateSchema = Yup.object().shape({
     fullName: Yup.string().required("Full name is required"),
