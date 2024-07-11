@@ -1,4 +1,5 @@
-import React from 'react';
+"use client";
+import React from "react";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 const FloatingWhatsappButton = () => {
@@ -6,7 +7,7 @@ const FloatingWhatsappButton = () => {
     <FloatingWhatsApp
       phoneNumber='+2348183255555'
       accountName='LeonardoBySujimoto'
-      statusMessage='Typically replies within 1 hour'
+      statusMessage='Typically replies within 10 minutes'
       chatMessage='Hello! How can we help you?'
       // darkMode={true}
       avatar='https://landing.leonardobysujimoto.com/static/media/logo.7cd0fdb6070286a8fb8743e17674d588.svg'
@@ -16,6 +17,6 @@ const FloatingWhatsappButton = () => {
       notificationSound
     />
   );
-}
+};
 
-export default FloatingWhatsappButton
+export default FloatingWhatsappButton;
