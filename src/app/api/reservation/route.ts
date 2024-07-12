@@ -58,8 +58,8 @@ export async function POST(request: Request) {
 
     // Send mail using Resend
     await resend.emails.send({
-      from: process.env.RESEND_FROM_EMAIL as string,
-      to: "ajayimichael@hotmail.com",
+      from: 'noreply@leonardobysujimotonig.com',
+      to: "digitalads.sujimoto@gmail.com",
       subject: "Reservation Confirmation",
       html: `
                 <h1>Reservation Confirmation</h1>
