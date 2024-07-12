@@ -51,16 +51,16 @@ const FirstChoice = () => {
             Reasons why the <span className="text-[#B56350]">Leonardo</span>{" "}
             Stands as 1st Choice Property.
           </h2>
-          <div className="grid grid-cols-12 gap-y-10 lg:gap-y-100 gap-x-5 lg:gap-x-10 items-start pr-5 pl-5 lg:pl-0 lg:pr-20">
+          <div className="grid grid-cols-12 gap-y-10 lg:gap-y-3 gap-x-5 lg:gap-x-10 items-start pr-5 pl-5 lg:pl-0 lg:pr-20">
             {reasonsWhy.map((reason, index) => (
               <div
-                className="flex flex-col space-y-3 lg:space-y-5 col-span-4 lg:col-span-3 justify-center items-center"
+                className="flex flex-col space-y-2 lg:space-y-2 col-span-4 lg:col-span-3 justify-center items-center"
                 key={index}
               >
                 <div className="grid place-content-center aspect-square rounded-full bg-[#B56350] p-2 lg:p-3">
-                  <Image src={reason.icon} alt={reason.title} className="scale-[.6] lg:scale-[.85]" />
+                  <Image src={reason.icon} alt={reason.title} className="scale-[.6] lg:scale-[.75]" />
                 </div>
-                <p className="font-orchidea-pro font-medium text-[14px] lg:text-[27.47px] leading-[130%] text-white text-center">
+                <p className="font-orchidea-pro font-medium text-[14px] lg:text-[20px] leading-[130%] text-white text-center">
                   {reason.title}
                 </p>
               </div>
@@ -73,8 +73,8 @@ const FirstChoice = () => {
             Book Now
           </div>
         </div>
-        <div className="col-span-10 lg:col-span-4">
-          <Image src={reasonsRightBanner} alt="right banner" />
+        <div className="col-span-10 lg:col-span-4 bg-red-600">
+          <Image src={reasonsRightBanner} alt="right banner" className="w-full h-full object-cover object-center" />
         </div>
       </div>
     </div>
