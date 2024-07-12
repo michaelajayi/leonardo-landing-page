@@ -24,12 +24,12 @@ const Header = () => {
       </div>
       <div className="w-screen h-auto absolute top-0 left-0 px-5 lg:px-[7rem] py-3">
         <Link href="/">
-          <Image src={logo} alt="header logo" />
+          <Image src={logo} alt="header logo"/>
         </Link>
       </div>
       <div className="w-full flex flex-col space-y-5 self-center">
         <div className="grid grid-cols-10 px-5">
-          <div className="col-span-10 lg:col-span-7 flex flex-col space-y-5 items-start lg:px-[7rem]">
+          <div className="col-span-10 lg:col-span-7 flex flex-col space-y-5 items-start lg:pl-[7rem]">
             <h1 className="font-orchidea-pro text-white text-[36px] lg:text-[58px] leading-[130%] font-medium w-full">
               Welcome to Africa&apos;s Most Exclusive Luxury Waterfront
               High-rise Building!

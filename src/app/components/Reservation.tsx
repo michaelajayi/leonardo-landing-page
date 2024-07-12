@@ -131,7 +131,7 @@ const Reservation = () => {
             <p className="font-inter text-[18px] lg:text-[24px] leading-[120%] lg:leading-[146%] text-[#B56350] uppercase">
               Get Started
             </p>
-            <h2 className="font-orchidea-pro text-[#1D1B1C] text-[18px] lg:text-[24px] leading-[130%] uppercase">
+            <h2 className="font-orchidea-pro text-[#1D1B1C] text-[28px] lg:text-[48px] leading-[130%] uppercase">
               Make a reservation
             </h2>
             <p className="font-orchidea-pro font-light text-[#1D1B1C] leading-[140%] lg:leading-[140%] text-[18px] lg:text-[24px]">
